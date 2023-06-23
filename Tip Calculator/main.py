@@ -1,7 +1,6 @@
 food_amount = float(input("Enter food amount $: "))
 tip_percentage = float(input("Tip Percentage (1 - 100): ")) / 100
 
-
 tip_amount = food_amount * tip_percentage
 total_amount = food_amount + tip_amount
 
