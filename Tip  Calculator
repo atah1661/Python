@@ -1,8 +1,8 @@
-food_amount = input("How much did the food cost: ")
-tip_percentage = 20 / 100
+food_amount = input("Enter food amount $: ")
+tip_percentage = float(input("Tip Percentage (1 - 100): ")) / 100
 
-tip_amount = int(food_amount) * tip_percentage
-total_amount = int(food_amount) + int(tip_amount)
+tip_amount = float(food_amount) * tip_percentage
+total_amount = float(food_amount) + float(tip_amount)
 
 print("Tip Amount: $" + str(tip_amount))
 print("Total Amount: $" + str(total_amount))
