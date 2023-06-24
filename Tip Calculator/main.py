@@ -9,4 +9,3 @@ print(f"Food Amount: ${food_amount} ")
 print(f"Tip Amount: ${tip_amount} \n")
 print(f"Total Amount: ${total_amount}")
 print("___________________________________")
-
